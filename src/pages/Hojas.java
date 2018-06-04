@@ -26,6 +26,8 @@ public class Hojas extends AbstractPageObject {
 	WebDriverWait wait = new WebDriverWait(driver, 30);
 	private static final TimeUnit SECONDS = null;
 
+	private static final String String = null;
+
 	private String nombre = "Carta";
 	private float ancho = 10;
 	private float alto = 10;
@@ -157,6 +159,7 @@ public class Hojas extends AbstractPageObject {
 		System.out.println("---SALIO TODO BIEN---");
 	}
 	
+
 	
 	
 }
